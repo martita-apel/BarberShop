@@ -1,0 +1,11 @@
+@mixin texto-resaltado {
+  color: $ruddy-pink;
+}
+
+.texto-r {
+  @include texto-resaltado;
+}
+
+.naomi h6 {
+  @include texto-resaltado;
+}

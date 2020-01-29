@@ -1,0 +1,25 @@
+.caja-parrafo {
+  padding: 60px 0;
+  color: $nickel;
+}
+
+.caja-parrafo h6 {
+  padding-bottom: 30px;
+}
+
+.caja-parrafo p {
+  line-height: 35px;
+}
+
+.botones {
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 575px) {
+  .caja-parrafo {
+    padding: 40px 20px;
+  }
+  .botones {
+    margin-left: 20px;
+  }
+}
